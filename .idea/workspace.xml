@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f63b183f-a42c-4190-951d-56f8df625398" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/scala/sqlevaluator/examples" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ePnG2UziXEN0zNuodxq9SRaEr5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/sqlevaluator" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project" />
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/sqlevaluator" />
+      <recent name="$PROJECT_DIR$/project/target" />
+      <recent name="$PROJECT_DIR$/src/main/scala/parsing-model" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Evaluator">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="Evaluator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sqlevaluator.Evaluator" />
+      <module name="AirtableSQLEvaluator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sqlevaluator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AirtableSQLEvaluator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainJava" />
+      <module name="AirtableSQLEvaluator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sqlevaluator.test" />
+      <module name="AirtableSQLEvaluator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sqlevaluator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTablesTest.joinTables should return a table of cross joined of all the tables into one table" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="AirtableSQLEvaluator" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="JoinTablesTest" />
+      <option name="testName" value="joinTables should return a table of cross joined of all the tables into one table" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Evaluator" />
+        <item itemvalue="ScalaTest.JoinTablesTest.joinTables should return a table of cross joined of all the tables into one table" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainJava" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="AirtableSQLEvaluator" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="airtablesqlevaluator [file:/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="AirtableSQLEvaluator-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4774405560491" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3766762186" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3441400446" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f63b183f-a42c-4190-951d-56f8df625398" name="Default Changelist" comment="" />
+      <created>1594231995659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594231995659</updated>
+      <workItem from="1594232000589" duration="16486000" />
+      <workItem from="1594313688633" duration="176000" />
+      <workItem from="1594334945150" duration="77573000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="357" key="#Project_Structure" timestamp="1594246826275">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="357" key="#Project_Structure/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594246826275" />
+    <state x="1145" y="521" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594523505042">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state x="1145" y="521" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594523505042" />
+    <state x="1018" y="453" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594253348808" />
+    <state x="822" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594237528079">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="822" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594237528079" />
+    <state x="1054" y="576" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594239321413">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1054" y="576" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594239321413" />
+    <state x="1054" y="558" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594238420463" />
+    <state x="1054" y="579" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1594237530434">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1054" y="579" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594237530434" />
+    <state width="2838" height="463" key="GridCell.Tab.0.bottom" timestamp="1594523573595">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2518" height="429" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594340379986" />
+    <state width="2838" height="463" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594523573595" />
+    <state width="2518" height="449" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594269262794" />
+    <state width="2838" height="463" key="GridCell.Tab.0.center" timestamp="1594523573594">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2518" height="429" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594340379984" />
+    <state width="2838" height="463" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594523573594" />
+    <state width="2518" height="449" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594269262792" />
+    <state width="2838" height="463" key="GridCell.Tab.0.left" timestamp="1594523573593">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2518" height="429" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594340379984" />
+    <state width="2838" height="463" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594523573593" />
+    <state width="2518" height="449" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594269262791" />
+    <state width="2838" height="463" key="GridCell.Tab.0.right" timestamp="1594523573594">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2518" height="429" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594340379985" />
+    <state width="2838" height="463" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594523573594" />
+    <state width="2518" height="449" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594269262793" />
+    <state width="2838" height="591" key="GridCell.Tab.1.bottom" timestamp="1594515038528">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2838" height="591" key="GridCell.Tab.1.bottom/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594515038528" />
+    <state width="2838" height="591" key="GridCell.Tab.1.center" timestamp="1594515038526">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2838" height="591" key="GridCell.Tab.1.center/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594515038526" />
+    <state width="2838" height="591" key="GridCell.Tab.1.left" timestamp="1594515038525">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2838" height="591" key="GridCell.Tab.1.left/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594515038525" />
+    <state width="2838" height="591" key="GridCell.Tab.1.right" timestamp="1594515038527">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state width="2838" height="591" key="GridCell.Tab.1.right/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594515038527" />
+    <state x="949" y="449" key="SettingsEditor" timestamp="1594421175360">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state x="949" y="449" key="SettingsEditor/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594421175360" />
+    <state x="1202" y="421" key="refactoring.ChangeSignatureDialog" timestamp="1594520966892">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state x="1202" y="421" key="refactoring.ChangeSignatureDialog/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594520966892" />
+    <state x="1063" y="370" width="754" height="820" key="search.everywhere.popup" timestamp="1594517147246">
+      <screen x="0" y="0" width="2880" height="1620" />
+    </state>
+    <state x="945" y="328" width="670" height="729" key="search.everywhere.popup/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594246535076" />
+    <state x="1063" y="370" width="754" height="820" key="search.everywhere.popup/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594517147246" />
+    <state x="945" y="328" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594254678370" />
+  </component>
+</project>

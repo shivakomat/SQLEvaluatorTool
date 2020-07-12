@@ -1,0 +1,63 @@
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: play-functional_2.12-2.6.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-core-2.11.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-annotations-2.11.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-reflect-2.12.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: macro-compat_2.12-1.1.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: joda-time-2.9.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-datatype-jdk8-2.8.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-databind-2.11.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-datatype-jsr310-2.8.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scopt_2.12-3.5.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: play-json_2.12-2.6.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.12.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/joda-time/joda-time/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/joda-time/joda-time/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/com.fasterxml.jackson.databind.Module' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'module-info.class' with strategy 'deduplicate'[0m
+[0m[[0m[31merror[0m] [0m[0m1 error was encountered during merge[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: deduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivakomatreddy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivakomatreddy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivakomatreddy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:26)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.x$1$1(Assembly.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.inputs$1(Assembly.scala:58)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.apply(Assembly.scala:85)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.$anonfun$assemblyTask$1(Assembly.scala:249)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:290)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m([31massembly[0m) deduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivakomatreddy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivakomatreddy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivakomatreddy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:module-info.class[0m
