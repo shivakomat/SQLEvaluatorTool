@@ -4,18 +4,16 @@ import java.io.File
 import java.util
 
 import com.fasterxml.jackson.core.JsonProcessingException
-import jsonsqlparser.{Table, TableDecl}
+import jsonsqlparser.{Query, Table, TableDecl}
 
 object TablesLoader {
 
-  private val dirPath = "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples"
-
-  def apply(tablesToLoad: util.ArrayList[TableDecl]): util.ArrayList[Table] = {
+  def apply(tablesToLoad: util.ArrayList[TableDecl], tablesDir: String): util.ArrayList[Table] = {
 
     val tables: util.ArrayList[Table] = new util.ArrayList[Table]()
 
     tablesToLoad.forEach { tableDecl =>
-      val tableSourcePath =   dirPath + File.separator + (tableDecl.source + ".table.json")
+      val tableSourcePath =   tablesDir + File.separator + (tableDecl.source + ".table.json")
       var table: Table = null
       try table = JacksonUtil.readFromFile(tableSourcePath, classOf[Table])
       catch {
@@ -28,6 +26,5 @@ object TablesLoader {
 
     tables
   }
-
 
 }

@@ -1,7 +1,7 @@
 package sqlevaluator
 
-import jsonsqlparser.Table.ColumnDef
 import jsonsqlparser.{Table, TableDecl}
+
 import scala.collection.JavaConversions._
 
 sealed class JoinTables {
@@ -15,9 +15,6 @@ sealed class JoinTables {
 
   private def convertToListOfStrings(row: Any): List[String] =
     row.toString.toCharArray.toSeq.filterNot(e => e == '[' || e == ']' || e == ' ').mkString.split(",").toList
-
-  private def getAllRows(tables: List[Table]): List[List[Any]] =
-      tables.map(t => t.rows.toList)
 
   private def joinRows(rows: List[List[Any]]): List[List[Any]] =
     rows match {

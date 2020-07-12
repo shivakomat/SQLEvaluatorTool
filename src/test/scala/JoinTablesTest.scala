@@ -36,7 +36,7 @@ class JoinTablesTest extends FlatSpec {
   whereConditions.add(condition1)
 
   val query =  new Query(selectors, froms, whereConditions)
-  val tables = TablesLoader(tablesToLoad = query.from)
+  val tables = TablesLoader(tablesToLoad = query.from, "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples")
 
   "joinTables" should "return a table of cross joined of all the tables into one table" in {
         val totalNumberOfColumns = tables.map(t => t.columns.size()).sum
@@ -45,7 +45,5 @@ class JoinTablesTest extends FlatSpec {
         assert(joinedTable.rows.size==totalNumberOfRecords)
         assert(joinedTable.columns.size == 6)
   }
-
-
 
 }

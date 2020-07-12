@@ -58,7 +58,7 @@ object Evaluator extends App {
   whereConditions.add(condition1)
 
   val query =  new Query(selectors, froms, whereConditions)
-  val tables = TablesLoader(query.from)
+  val tables = TablesLoader(query.from, "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples")
 
   val joinedTable = JoinTables(tables.toList, froms.toList)
 //  val filteredTable = SQLOperations(joinedTable).applyWhereClauses(whereConditions.toList)
@@ -106,7 +106,7 @@ object Evaluator extends App {
 
 
   val query2 =  new Query(selectors2, froms2, whereConditions2)
-  val tables2 = TablesLoader(query2.from)
+  val tables2 = TablesLoader(query2.from, "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples")
   val joinedTable2 = JoinTables(tables2.toList, froms2.toList)
 
 //  joinedTable2.rows.foreach(println)
@@ -168,7 +168,7 @@ object Evaluator extends App {
   whereConditions3.add(condition33)
 
   val query3 =  new Query(selectors3, froms3, whereConditions3)
-  val tables3 = TablesLoader(query3.from)
+  val tables3 = TablesLoader(query3.from, "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples")
   val joinedTable3 = JoinTables(tables3.toList, froms3.toList)
 
 //  joinedTable3.rows.foreach(println)
@@ -179,9 +179,7 @@ object Evaluator extends App {
 
   val filteredTable3 = Comparator(joinedTable3, whereConditions3.toList)
   val pos = filteredTable3.columns.zipWithIndex
-    .filter(col => {
-      col._1.srcTable.name == "others" && col._1.columnName.name == "name"
-    }).head._2
+    .filter(col => col._1.srcTable.name == "others" && col._1.columnName.name == "name").head._2
 
   println(filteredTable3.columns.map(e => (e.srcTable.name + "." + e.columnName.name)).mkString(","))
 //  filteredTable3.rows.forEach(t => println(t))
