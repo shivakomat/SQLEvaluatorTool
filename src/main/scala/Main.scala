@@ -22,7 +22,7 @@ object Main extends App {
 //    println("Table Folder : " + config.tableFolder)
 
     // Json file ingested
-    val query = JsonSqlFilesReader("/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples/cities-2.sql.json")
+    val query = JsonSqlFilesReader("/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples/error-1.sql.json")
 
     // Load Tables
     val tables = TablesLoader(query.from, "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples")
@@ -31,8 +31,7 @@ object Main extends App {
 
     val columnDefinitions = SelectorCompute(finalTable.columns, query.select.toList)
 
-
-    println(columnDefinitions.map(c => c._1.srcTable.name + "." + c._1.columnName.name).mkString(","))
+    println(columnDefinitions.map(c => c._1.srcTable.name + "." + c._1.columnName.name + "(" + c._1.columnName.`type` + ")").mkString(","))
     finalTable.rows.foreach(row =>  {
         println(columnDefinitions.map(c => row(c._2)).mkString(","))
     })
