@@ -29,12 +29,12 @@ sealed class Comparator(table: TableScala) {
     Json.parse(t.toString)
 
   private def getColumnPosition(t: JsValue): Int = {
-    val tableName = (t \ "column" \ "table").as[String]
+    val tableName = Try((t \ "column" \ "table").as[String]).getOrElse(null)
     val colName = (t \ "column" \ "name").as[String]
 
     table.columns.zipWithIndex
       .filter(col => {
-        if(tableName != "null") col._1.srcTable.name == tableName && col._1.columnName.name == colName
+        if(tableName != null) (col._1.srcTable.name == tableName) && (col._1.columnName.name == colName)
         else col._1.columnName.name == colName
       }).head._2
   }

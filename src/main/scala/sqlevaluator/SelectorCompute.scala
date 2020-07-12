@@ -7,12 +7,13 @@ sealed class SelectorCompute(columns: List[ColumnDefinition], selections: List[S
   def run(): Seq[(ColumnDefinition, Int)] = {
     val colsWithIndexes = columns.zipWithIndex
     selections.flatMap(e => {
-      colsWithIndexes.filter(c => (e.name == c._1.columnName.name) && (e.source.table == c._1.srcTable.name))
+      colsWithIndexes.filter(c => {
+        if(e.source.table != null) (e.name == c._1.columnName.name) && (e.source.table == c._1.srcTable.name)
+        else e.name == c._1.columnName.name
+      })
     })
   }
-
 }
-
 
 object SelectorCompute {
 
