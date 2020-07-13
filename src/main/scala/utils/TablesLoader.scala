@@ -23,7 +23,6 @@ object TablesLoader {
       }
       tables.add(table)
     }
-
     tables
   }
 

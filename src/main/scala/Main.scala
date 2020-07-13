@@ -1,4 +1,4 @@
-import sqlevaluator.{Comparator, JoinTables, JsonSqlFilesReader, SelectorCompute}
+import sqlevaluator.{Comparator, JoinTables, JsonSqlFilesReader, QueryValidator}
 import utils.TablesLoader
 
 import scala.collection.JavaConversions._
@@ -21,18 +21,19 @@ object Main extends App {
 //    println("SQL Json File : " + config.sqlJsonFile)
 //    println("Table Folder : " + config.tableFolder)
 
-    // Json file ingested
-    val query = JsonSqlFilesReader("/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples/error-1.sql.json")
+    val result = for {
+        q <- JsonSqlFilesReader("/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples/error-1.sql.json")
+        tables <- Right(TablesLoader(q.from, "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples"))
+        validatorResults <- QueryValidator(q, tables.toList)
+        joinedTable <- Right(JoinTables(tables.toList, q.from.toList))
+        finalTable <- Right(Comparator(joinedTable, q.where.toList))
+    } yield finalTable
 
-    // Load Tables
-    val tables = TablesLoader(query.from, "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples")
-    val joinedTable = JoinTables(tables.toList, query.from.toList)
-    val finalTable = Comparator(joinedTable, query.where.toList)
-
-    val columnDefinitions = SelectorCompute(finalTable.columns, query.select.toList)
-
-    println(columnDefinitions.map(c => c._1.srcTable.name + "." + c._1.columnName.name + "(" + c._1.columnName.`type` + ")").mkString(","))
-    finalTable.rows.foreach(row =>  {
-        println(columnDefinitions.map(c => row(c._2)).mkString(","))
-    })
+    result match {
+        case Left(errors) =>
+            System.err.println(errors)
+            System.exit(1)
+        case Right(r) =>
+            r.rows.foreach(println)
+    }
 }
