@@ -1,10 +1,9 @@
 package sqlevaluator
 
+import jsonsqlparser.Condition
 import jsonsqlparser.Condition.Op
-import jsonsqlparser.{Condition, Term}
-import play.api.libs.json.{JsValue, Json}
-import scala.util.Try
-import JsonUtils._
+import play.api.libs.json.JsValue
+import sqlevaluator.JsonUtils._
 
 sealed class Comparator(table: TableScala) {
 
@@ -27,9 +26,7 @@ sealed class Comparator(table: TableScala) {
     }
 
   private def getColumnPosition(t: JsValue): Int = {
-    val tableName = Try((t \ "column" \ "table").as[String]).getOrElse(null)
-    val colName = (t \ "column" \ "name").as[String]
-
+    val (colName, tableName) = getTermTableNameAndColName(t)
     table.columns.zipWithIndex
       .filter(col => {
         if(tableName != null) (col._1.srcTable.name == tableName) && (col._1.columnName.name == colName)

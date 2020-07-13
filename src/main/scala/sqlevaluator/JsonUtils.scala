@@ -2,7 +2,6 @@ package sqlevaluator
 
 import jsonsqlparser.Term
 import play.api.libs.json.{JsValue, Json}
-
 import scala.util.Try
 
 object JsonUtils {
@@ -12,6 +11,10 @@ object JsonUtils {
 
   def getJsonOfTerm(c: Term): (String, String) = {
     val t = getJsonValue(c)
+    getTermTableNameAndColName(t)
+  }
+
+  def getTermTableNameAndColName(t: JsValue): (String, String) = {
     val tableName = Try((t \ "column" \ "table").as[String]).getOrElse(null)
     val colName = (t \ "column" \ "name").as[String]
     (colName, tableName)

@@ -1,4 +1,5 @@
-import sqlevaluator.{Comparator, JoinTables, JsonSqlFilesReader, QueryValidator, SelectorCompute}
+import sqlevaluator.queryvalidator.QueryValidator
+import sqlevaluator.{Comparator, JoinTables, JsonSqlFilesReader, SelectorCompute}
 import utils.TablesLoader
 
 import scala.collection.JavaConversions._
