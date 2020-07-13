@@ -4,6 +4,7 @@ import jsonsqlparser.Condition.Op
 import jsonsqlparser.{Condition, Term}
 import play.api.libs.json.{JsValue, Json}
 import scala.util.Try
+import JsonUtils._
 
 sealed class Comparator(table: TableScala) {
 
@@ -16,7 +17,7 @@ sealed class Comparator(table: TableScala) {
       case Nil => row
       case conditions => {
         if(row.nonEmpty) {
-          val (lJson, rJson) = (getJsonOfTerm(conditions.head.left), getJsonOfTerm(conditions.head.right))
+          val (lJson, rJson) = (getJsonValue(conditions.head.left), getJsonValue(conditions.head.right))
           val rValue = getRightLiteralValue(rJson).getOrElse(row.get(getColumnPosition(rJson)))
           val rowFiltered = applyCondition(row.get, colPos = getColumnPosition(lJson), op = conditions.head.op, rValue = rValue)
           val newRow = if (rowFiltered) row else None
@@ -24,9 +25,6 @@ sealed class Comparator(table: TableScala) {
         } else None
       }
     }
-
-  private def getJsonOfTerm(t: Term): JsValue =
-    Json.parse(t.toString)
 
   private def getColumnPosition(t: JsValue): Int = {
     val tableName = Try((t \ "column" \ "table").as[String]).getOrElse(null)
@@ -49,11 +47,6 @@ sealed class Comparator(table: TableScala) {
       case Op.GE => (row(colPos).toInt >= rValue.toInt)
       case _ => true
     }
-
-  private def getRightLiteralValue(rightSide: JsValue): Option[String] =
-    Try {
-      Try((rightSide \ "literal").as[Int].toString).getOrElse((rightSide \ "literal").as[String])
-    }.toOption
 }
 
 object Comparator {
