@@ -7,6 +7,7 @@ scalaVersion := "2.12.2"
 val projectMainClass = "Main"
 
 mainClass in (Compile, run) := Some(projectMainClass)
+mainClass in assembly := Some(projectMainClass)
 
 // https://mvnrepository.com/artifact/org.scalatest/scalatest
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.0" % Test
@@ -25,6 +26,11 @@ libraryDependencies += "com.fasterxml.jackson.core" % "jackson-annotations" % "2
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.11.0"
+
+mergeStrategy in assembly := {
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case x => MergeStrategy.first
+}
 
 
 

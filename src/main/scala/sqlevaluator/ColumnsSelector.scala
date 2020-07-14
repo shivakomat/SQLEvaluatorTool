@@ -2,7 +2,7 @@ package sqlevaluator
 
 import jsonsqlparser.Selector
 
-sealed class SelectorCompute(columns: List[ColumnDefinition], selections: List[Selector]) {
+sealed class ColumnsSelector(columns: List[ColumnDefinition], selections: List[Selector]) {
 
   def run(): Seq[(ColumnDefinition, Int)] = {
     val colsWithIndexes = columns.zipWithIndex
@@ -15,10 +15,9 @@ sealed class SelectorCompute(columns: List[ColumnDefinition], selections: List[S
   }
 }
 
-object SelectorCompute {
+object ColumnsSelector {
 
-  def apply(columns: List[ColumnDefinition], selections: List[Selector]): Seq[(ColumnDefinition, Int)] = {
-    new SelectorCompute(columns, selections).run()
-  }
+  def apply(columns: List[ColumnDefinition], selections: List[Selector]): Seq[(ColumnDefinition, Int)] =
+      new ColumnsSelector(columns, selections).run()
 
 }

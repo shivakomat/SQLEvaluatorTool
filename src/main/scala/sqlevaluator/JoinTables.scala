@@ -1,7 +1,6 @@
 package sqlevaluator
 
 import jsonsqlparser.{Table, TableDecl}
-
 import scala.collection.JavaConversions._
 
 sealed class JoinTables {
@@ -19,18 +18,16 @@ sealed class JoinTables {
   private def joinRows(rows: List[List[Any]]): List[List[Any]] =
     rows match {
       case Nil => List(Nil)
-      case row :: rowSet => {
+      case row :: rowSet =>
         for {
           item <- row;
           combination <- joinRows(rowSet)
         } yield item :: combination
-      }
     }
 }
 
 object JoinTables {
 
-  def apply(tables: List[Table], tableNames: List[TableDecl]): TableScala = {
-    new JoinTables().run(tables, tableNames)
-  }
+  def apply(tables: List[Table], tableNames: List[TableDecl]): TableScala =
+      new JoinTables().run(tables, tableNames)
 }

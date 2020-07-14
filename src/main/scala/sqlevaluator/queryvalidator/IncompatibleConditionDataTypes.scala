@@ -3,7 +3,6 @@ package sqlevaluator.queryvalidator
 import jsonsqlparser.Table.ColumnDef
 import jsonsqlparser.{Condition, Query, SqlType, Table, Term}
 import sqlevaluator.JsonUtils.{getJsonOfTerm, getJsonValue, getRightLiteralValue}
-
 import scala.collection.JavaConversions._
 
 sealed class IncompatibleConditionDataTypes(query: Query,  tables: List[Table]) {
@@ -47,6 +46,7 @@ sealed class IncompatibleConditionDataTypes(query: Query,  tables: List[Table]) 
 }
 
 object IncompatibleConditionDataTypes {
+
   def apply(query: Query, tables: List[Table]): Either[String, Query] = new IncompatibleConditionDataTypes(query, tables).run()
 }
 
