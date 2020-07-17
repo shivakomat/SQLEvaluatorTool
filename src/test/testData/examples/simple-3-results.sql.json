@@ -1,0 +1,9 @@
+[
+[["name","str"], ["age","int"], ["name","str"], ["distance","int"]],
+ ["Alice", 20, "Alice", 25],
+ ["Alice", 20, "Alice", 32],
+ ["Alice", 20, "Bob", 32],
+ ["Eve", 40, "Alice", 25],
+ ["Eve", 40, "Alice", 32],
+ ["Eve", 40, "Bob", 32],
+]

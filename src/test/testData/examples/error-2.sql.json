@@ -1,0 +1,15 @@
+{
+    "select": [
+        {"name": "name", "source": {"name": "name", "table": "states"}}
+    ],
+    "from": [
+        {"name": "c", "source": "states"}
+    ],
+    "where": [
+        {
+            "op": ">",
+            "left": {"column": {"name": "population", "table": null}},
+            "right": {"literal": 10}
+        }
+    ]
+}
