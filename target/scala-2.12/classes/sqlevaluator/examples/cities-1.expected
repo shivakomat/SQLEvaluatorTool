@@ -1,6 +1,0 @@
-[
-    [["name", "str"], ["population", "int"]],
-    ["Tokyo", 13513],
-    ["Kanagawa", 9127],
-    ["Osaka", 8838]
-]

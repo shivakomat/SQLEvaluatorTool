@@ -1,6 +1,12 @@
-import sqlevaluator.queryvalidator.QueryValidator
-import sqlevaluator.{Comparator, JoinTables, JsonSqlFilesReader, ColumnsSelector}
-import utils.TablesLoader
+import java.io.File
+
+import config.AppArgumentsParser
+import sqlevaluator.combine.JoinTables
+import sqlevaluator.comparator.Comparator
+import sqlevaluator.selector.ColumnsSelector
+import sqlevaluator.tablesloader
+import sqlevaluator.validator.QueryValidator
+import utils.{DataWriter, JsonSqlFilesReader}
 
 import scala.collection.JavaConversions._
 
@@ -23,18 +29,19 @@ object Main extends App {
     println("SQL Json File : " + config.sqlJsonFile)
     println("Table Folder : " + config.tableFolder)
 
-    //    val sqlJsonFile = "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples/cities-2.sql.json"
-    //    val tablesDataDir = "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples"
+//        val sqlJsonFile = "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples/simple-2.sql.json"
+//        val tablesDataDir = "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples"
 
     val sqlJsonFile = config.sqlJsonFile
     val tablesDataDir = config.tableFolder
+    val outputFolder = config.outputFile
 
     val result = for {
         // reads the input sql json file and build a Query object
         q <- JsonSqlFilesReader(sqlJsonFile)
 
         // loads all the tables selected in the Query above
-        tables <- Right(TablesLoader(q.from, tablesDataDir))
+        tables <- tablesloader.TablesLoader(q.from, tablesDataDir)
 
         // validates query column selections and where conditions
         validatorResults <- QueryValidator(q, tables.toList)
@@ -54,8 +61,9 @@ object Main extends App {
         case Left(errors) =>
             System.err.println(errors)
             System.exit(1)
-        case Right(r) =>
-            println(r._2.map(s => s._1.columnName.name).mkString(","))
-            r._1.rows.foreach(row => println(r._2.map(s => row(s._2)).mkString(",")))
+        case Right(table) =>
+            println(table._2.map(s => s._1.columnName.name).mkString(","))
+            table._1.rows.foreach(row => println(table._2.map(s => row(s._2)).mkString(",")))
+            DataWriter.run(outputFolder, table._1, table._2)
     }
 }

@@ -1,1 +1,1 @@
-["JoinTablesTest"]
+["TestApplication","TestJoinTables","TestIncompatibleConditionDataTypes","TestAmbiguousColumnsValidation","TestColumnsSelector"]

@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/main/scala/sqlevaluator/examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/testData/examples" vcs="Git" />
   </component>
 </project>
