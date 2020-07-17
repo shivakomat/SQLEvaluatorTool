@@ -2,171 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63b183f-a42c-4190-951d-56f8df625398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Evaluator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/selector/ColumnsSelector.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/tablesloader/TablesLoader.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/TestAmbiguousColumnsValidation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/TestApplication.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/TestColumnsSelector.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/TestIncompatibleConditionDataTypes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/TestJoinTables.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/testdatabuilders/TestTableFixtureBuilder.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/a.table.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/AppArgumentsParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/config/AppArgumentsParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Config.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/config/Config.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/ColumnRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/ColumnRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/Selector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/Selector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/SqlType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/SqlType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/TableDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/TableDecl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/jsonsqlparser/Term.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/jsonsqlmodel/Term.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/CSVFileWriter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/DataWriter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/ColumnsSelector.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/Comparator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/comparator/Comparator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/Evaluator.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/FileWriter.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/JoinTables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/combine/JoinTables.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/JsonSqlFilesReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/JsonSqlFilesReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/JsonUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/JsonUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/TableScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/combine/TableScala.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/examples" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/queryvalidator/AmbiguousColumnsValidation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/validator/AmbiguousColumnsValidation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/queryvalidator/IncompatibleConditionDataTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/validator/IncompatibleConditionDataTypes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/queryvalidator/QueryValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/validator/QueryValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/utils/TablesLoader.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/JoinTablesTest.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/TestQueryBuilder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/testdatabuilders/TestQueryFixtureBuilder.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testData/examples/a.table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/airtablesqlevaluator_2.12-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/airtablesqlevaluator_2.12-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/AppArgumentsParser$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/AppArgumentsParser$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/AppArgumentsParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Config$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/ColumnRef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Condition$Op.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Condition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Selector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/SqlType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Table$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Table$ColumnDef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Table$Deserializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Table$Deserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Table$Serializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/TableDecl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Term$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Term$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Term$Literal$Deserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Term$Literal$Serializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Term$Literal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/jsonsqlparser/Term.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/ColumnDefinition$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/ColumnDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/Comparator$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/Comparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/Evaluator$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/Evaluator$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/Evaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/JoinTables$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/JoinTables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/JsonSqlFilesReader$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/JsonSqlFilesReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/TableScala$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/TableScala.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/a.table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/b.table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-1.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-1.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-2.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-2.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-3.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-3.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities-3.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/cities.table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/countries.table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-1.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-1.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-2.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-2.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-3.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-3.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/error-3.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-1.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-1.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-2.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-2.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-3.expected" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-3.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/sqlevaluator/examples/simple-3.sql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/utils/TablesLoader$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/utils/TablesLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/JoinTablesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/assembly-inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/assembly-inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/AppArgumentsParser$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/AppArgumentsParser$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/AppArgumentsParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Config$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Main$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/ColumnRef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Condition$Op.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Condition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Selector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/SqlType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Table$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Table$ColumnDef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Table$Deserializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Table$Deserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Table$Serializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/TableDecl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Term$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Term$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Term$Literal$Deserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Term$Literal$Serializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Term$Literal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/jsonsqlparser/Term.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,12 +286,25 @@
       <workItem from="1594313688633" duration="176000" />
       <workItem from="1594334945150" duration="119562000" />
       <workItem from="1594764777323" duration="434000" />
-      <workItem from="1594857504922" duration="40234000" />
+      <workItem from="1594857504922" duration="40543000" />
     </task>
+    <task id="LOCAL-00001" summary="Added full test coverage">
+      <created>1594950045754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594950045754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added full test coverage&#10;first commit, and adding meat of the solution but much clean up and test cases needed" />
+    <MESSAGE value="Added full test coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added full test coverage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1480" y="377" key="#Inspections" timestamp="1594603565399">
@@ -493,10 +343,10 @@
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
     <state x="704" y="270" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594881069128" />
-    <state x="869" y="411" key="CommitChangelistDialog2" timestamp="1594950044530">
+    <state x="869" y="411" key="CommitChangelistDialog2" timestamp="1594950066329">
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
-    <state x="869" y="411" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594950044530" />
+    <state x="869" y="411" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594950066329" />
     <state x="100" y="100" width="2680" height="1420" key="DiffContextDialog" timestamp="1594950012956">
       <screen x="0" y="0" width="2880" height="1620" />
     </state>

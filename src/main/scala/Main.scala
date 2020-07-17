@@ -29,8 +29,6 @@ object Main extends App {
     println("SQL Json File : " + config.sqlJsonFile)
     println("Table Folder : " + config.tableFolder)
 
-//        val sqlJsonFile = "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples/simple-2.sql.json"
-//        val tablesDataDir = "/Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/src/main/scala/sqlevaluator/examples"
 
     val sqlJsonFile = config.sqlJsonFile
     val tablesDataDir = config.tableFolder
