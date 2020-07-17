@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63b183f-a42c-4190-951d-56f8df625398" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/a.table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/b.table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-1.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-1.sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-2.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-2.sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-3.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities-3.sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/cities.table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/countries.table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/error-1.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/error-1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/error-1.sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/error-2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/error-3.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/error-3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/error-3.sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-1.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-1.sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-2.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-2.sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-3.expected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testData/examples/simple-3.sql.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sqlevaluator/tablesloader/TablesLoader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sqlevaluator/tablesloader/TablesLoader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testData/examples/error-2-results.sql.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testData/examples/error-2-results.sql.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testData/examples/error-2.expected" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testData/examples/error-2.expected" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testData/examples/error-2.sql.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testData/examples/error-2.sql.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/assembly-inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/assembly-inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/assembly/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +110,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/testData/examples" />
       <recent name="$PROJECT_DIR$/src/test/testData" />
       <recent name="$PROJECT_DIR$/project" />
       <recent name="$PROJECT_DIR$/src/main/scala" />
@@ -286,7 +328,7 @@
       <workItem from="1594313688633" duration="176000" />
       <workItem from="1594334945150" duration="119562000" />
       <workItem from="1594764777323" duration="434000" />
-      <workItem from="1594857504922" duration="40543000" />
+      <workItem from="1594857504922" duration="42326000" />
     </task>
     <task id="LOCAL-00001" summary="Added full test coverage">
       <created>1594950045754</created>
@@ -295,7 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594950045754</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final clean up">
+      <created>1594950299287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594950299287</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit, and adding meat of the solution but much clean up and test cases needed">
+      <created>1594951340823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594951340823</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +360,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added full test coverage&#10;first commit, and adding meat of the solution but much clean up and test cases needed" />
     <MESSAGE value="Added full test coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added full test coverage" />
+    <MESSAGE value="Final clean up" />
+    <MESSAGE value="Adding error message output" />
+    <MESSAGE value="first commit, and adding meat of the solution but much clean up and test cases needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit, and adding meat of the solution but much clean up and test cases needed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1480" y="377" key="#Inspections" timestamp="1594603565399">
@@ -343,10 +402,10 @@
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
     <state x="704" y="270" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594881069128" />
-    <state x="869" y="411" key="CommitChangelistDialog2" timestamp="1594950299079">
+    <state x="869" y="411" key="CommitChangelistDialog2" timestamp="1594952136073">
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
-    <state x="869" y="411" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594950299079" />
+    <state x="869" y="411" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594952136073" />
     <state x="100" y="100" width="2680" height="1420" key="DiffContextDialog" timestamp="1594950012956">
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
@@ -415,11 +474,11 @@
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
     <state x="1202" y="421" key="refactoring.ChangeSignatureDialog/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594880515837" />
-    <state x="1063" y="370" width="754" height="820" key="search.everywhere.popup" timestamp="1594949303659">
+    <state x="1063" y="370" width="754" height="820" key="search.everywhere.popup" timestamp="1594952051032">
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
     <state x="945" y="328" width="670" height="729" key="search.everywhere.popup/-1920.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1594246535076" />
-    <state x="1063" y="370" width="754" height="820" key="search.everywhere.popup/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594949303659" />
+    <state x="1063" y="370" width="754" height="820" key="search.everywhere.popup/-1920.0.1920.1080/0.0.2880.1620@0.0.2880.1620" timestamp="1594952051032" />
     <state x="945" y="328" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.2560.1337@0.23.2560.1337" timestamp="1594254678370" />
     <state x="1063" y="370" width="754" height="820" key="search.everywhere.popup/-1920.23.1920.977/0.0.2880.1620@0.0.2880.1620" timestamp="1594921841438" />
   </component>

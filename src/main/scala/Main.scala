@@ -58,6 +58,7 @@ object Main extends App {
     result match {
         case Left(errors) =>
             System.err.println(errors)
+            DataWriter.error(outputFolder, errors)
             System.exit(1)
         case Right(table) =>
             println(table._2.map(s => s._1.columnName.name).mkString(","))

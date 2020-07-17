@@ -17,6 +17,11 @@ sealed case class DataWriter(file:File, table: TableScala) {
   private val rowBracketOpen = "["
   private val rowBracketClosed = "]"
 
+  def writeErrorMsg(error: String) = {
+    writer.write(error)
+    writer.close()
+  }
+
 
   def writeHeader(header: Seq[ColumnDefinition]) = {
     writer.write(fileOpen + "\n" + rowBracketOpen  +
@@ -41,8 +46,13 @@ sealed case class DataWriter(file:File, table: TableScala) {
 
 object DataWriter {
 
-  def run(filename: String, table: TableScala, columns: Seq[(ColumnDefinition, Int)]): Unit = {
-    val outputFile = new File(filename)
+  def error(fileName: String, msg: String) = {
+    val outputFile = new File(fileName)
+    new DataWriter(outputFile, null).writeErrorMsg(msg)
+  }
+
+  def run(fileName: String, table: TableScala, columns: Seq[(ColumnDefinition, Int)]): Unit = {
+    val outputFile = new File(fileName)
     val fileWriter = new DataWriter(outputFile, table)
     fileWriter.writeHeader(columns.map(_._1))
     table.rows.foreach(row => fileWriter.writeRow(columns.map(s => row(s._2)).toList))

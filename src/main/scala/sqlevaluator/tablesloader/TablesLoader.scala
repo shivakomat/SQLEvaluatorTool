@@ -21,7 +21,7 @@ object TablesLoader {
     })
 
     if(numberOfTableDontExist.nonEmpty)
-      Left("Error: following tables are not found " + numberOfTableDontExist.mkString(","))
+      return Left("Error: following tables are not found " + numberOfTableDontExist.mkString(","))
 
     tablesToLoad.forEach { tableDecl =>
       val tableSourcePath = tablesDir + File.separator + (tableDecl.source + ".table.json")

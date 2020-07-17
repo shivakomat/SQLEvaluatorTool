@@ -1,15 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: play-functional_2.12-2.6.9.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-core-2.11.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-annotations-2.11.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: play-functional_2.12-2.6.9.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: joda-time-2.9.9.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-datatype-jdk8-2.8.9.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-datatype-jsr310-2.8.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-databind-2.11.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: play-json_2.12-2.6.9.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scopt_2.12-3.5.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-databind-2.11.0.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.12.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-datatype-jdk8-2.8.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: joda-time-2.9.9.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-reflect-2.12.2.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: macro-compat_2.12-1.1.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: jackson-datatype-jsr310-2.8.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.12.2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
 [0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
 [0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
@@ -41,13 +41,9 @@
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'module-info.class' with strategy 'first'[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 25 files[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'first' was applied to a file[0m
-[0m[[0m[0minfo[0m] [0m[0mSHA-1: ff90396f128f2c188e1a22883883c9719e75a474[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: fcbf1a3c5792ba29eefcd4bb1a24fadcf1bf9cdb[0m
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/target/scala-2.12/AirtableSQLEvaluator-assembly-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Evaluator$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Evaluator$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Evaluator.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Evaluator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/shivakomatreddy/IdeaProjects/AirTableSQLEvaluator/target/streams/_global/assemblyOption/_global/streams/assembly/12b64cc2e34681c19afde025276cf1bd51c4f41c_dir/Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
